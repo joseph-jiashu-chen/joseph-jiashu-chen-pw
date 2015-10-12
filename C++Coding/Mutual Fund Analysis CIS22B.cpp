@@ -1,6 +1,10 @@
-/* Name: Jia-Shu (Joseph) Chen ID: 11204321
+/* Name: Jia-Shu (Joseph) Chen
    CIS22B Assignment 5 MW
-   Compiler: GNU GCC Compiler on Codeblocks*/
+   Compiler: GNU GCC Compiler on Codeblocks
+   Analyzes mutual funds via historical data and provides the minimum and maximum close of the 
+   mutual fund over the last year, a 50 day moving average, a 200 day moving average, a % gain of 
+   the most recent close over the 200 day moving average, and a recommendation for whether to buy, 
+   sell, or hold based on the %gain over the 200 Day Moving Avg*/
 #include <iostream>
 #include <iomanip>
 #include <fstream>
