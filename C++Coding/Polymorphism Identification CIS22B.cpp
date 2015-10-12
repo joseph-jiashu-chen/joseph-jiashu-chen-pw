@@ -1,6 +1,7 @@
-/* Name: Jia-Shu(Joseph) Chen  ID: 11204321
+/* Name: Jia-Shu(Joseph) Chen 
    CIS22B Assignment 8 MW
-   Compiler GNU GCC Compiler on Codeblocks*/
+   Compiler GNU GCC Compiler on Codeblocks
+   Identification of Quadrilaterals via Polymorphism Code*/
 #include <iostream>
 #include <iomanip>
 #include <cctype>
