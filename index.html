@@ -63,6 +63,12 @@
                         <a href="#portfolio">MUN Portfolio</a>
                     </li>
                     <li class="page-scroll">
+                        <a href="#video">Short Film</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#coding">Coding Projects</a>
+                    </li>
+                    <li class="page-scroll">
                         <a href="#contact">Contact</a>
                     </li>
                 </ul>
@@ -137,13 +143,71 @@
         </div>
     </section>
 
+    <section id="coding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>C++ Programming Projects</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3 portfolio-item">
+                    <a href="#coding1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <p> Mutual Fund Analysis </p>
+                        <img src="RHSMUNAWARD.JPG" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-3 portfolio-item">
+                    <a href="#coding2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <p style="font-size:18px"> Inventory Reference Counting </p>
+                        <img src="20150808_152921.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-3 portfolio-item">
+                    <a href="#coding3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <p> Polymorphism Identification </p>
+                        <img src="SMUNCAWARD.JPG" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-3 portfolio-item">
+                    <a href="#coding4" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <p> Spell Checker </p>
+                        <img src="20150808_151257.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
     <!-- Portfolio Grid Section -->
-    <section id="portfolio">
+    <section id="portfolio" class="success">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>MUN Portfolio</h2>
-                    <hr class="star-primary">
+                    <hr class="star-light">
                 </div>
             </div>
             <div class="row">
@@ -217,7 +281,23 @@
         </div>
     </section>
 
-    
+<section id="video">
+            <div class="container">
+                <div class="col-lg-12 text-center">
+                    <h2>A Look into the Last 4 Years</h2>
+                    <hr class="star-primary">
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                    <div class="panel-body">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/YWr4Ph-Fa0A" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    </div>
+                </div>
+        </div>
+</section>
+
+
 <section id="contact" style="background-color:#2F4F4F">
     <div class="container">
      <div class="row">
@@ -506,6 +586,125 @@
             </div>
         </div>
     </div>
+
+        <!-- Coding Modals -->
+    <div class="portfolio-modal modal fade" id="coding1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Mutual Fund Analysis</h2>
+                            <hr class="star-primary">
+                            <p> This code reads through historical data of mutual funds, and using the data, it will provide an analysis and recommendation on whether to buy, sell, or hold on to the mutual fund. Using the data, the code also provides the minimum and maximum close price, 50 day moving average, 200 day moving average, and the % gain over 200 day moving average.</p>
+                            <ul class="list-inline item-details">
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">December 2014</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="coding2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Inventory Reference Counting</h2>
+                            <hr class="star-primary">
+                            <p> This code utilizes linked lists and reference counting to track the inventory of items using what could be considered as a 4 digit barcode. The code will provide a report on the status of the items by taking in commands that result in the linked list node for the item number increasing or decreasing its count. Inadequate commands will also be accounted for in the report of the inventory. </p>
+                            <ul class="list-inline item-details">
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">December 2014</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="coding3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Polymorphism Identification</h2>
+                            <hr class="star-primary">
+                            <p> Using object oriented programming, specifically polymorphism, the code classifies quadrilaterals into specific categories (rectangle, square, rhombus, parallelogram) by using the given dimensions and classifications.  </p>
+                            <ul class="list-inline item-details">
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">December 2014</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="coding4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Spell Checker</h2>
+                            <hr class="star-primary">
+                            <p> Starting with a "dictionary" file of 23907 words, the code dynamically allocates memory in order to read the 23907 words into an array of strings. The words are then sorted so that when another file containing a passage is read into the code, the passage can be parsed into individual words and through a binary search of the array of strings with the 23907 words, the words of the passage can be checked for spelling by noting whether the word is present in the 23907 words.  </p>
+                            <ul class="list-inline item-details">
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">December 2014</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
