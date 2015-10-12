@@ -1,6 +1,12 @@
-/*Name:Jia-Shu (Joseph) Chen ID: 11204321
+/*Name:Jia-Shu (Joseph) Chen 
   CIS22B Assignment 3 MW
-  Compiler: GNU GCC Compiler on Codeblocks*/
+  Compiler: GNU GCC Compiler on Codeblocks
+  After dynamically allocating memory for an array of strings, a file containing 
+  23907 words is read into the array and sorted. Another file is parsed for each 
+  individual word. Using a binary search, the individual word is searched for in 
+  the array. If word is present in array, spelling is considered correct. If word 
+  is not present in array, spelling is considered incorrect.*/
+  
 #include <iostream>
 #include <iomanip>
 #include <fstream>
